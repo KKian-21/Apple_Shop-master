@@ -1,0 +1,622 @@
+html,
+body,
+header,
+#intro {
+    height: 100%;
+}
+
+html {
+    background-color: #fdfdfd;
+    overflow-x: hidden;
+}
+body {
+    background-color: #fcfcfc;
+}
+
+body::-webkit-scrollbar {
+    width: 0.4rem;
+}
+
+body::-webkit-scrollbar-track {
+    background: #1e1e24;
+}
+
+
+@font-face {
+    font-family: "Amsterdam Laviera";
+    src: url("/fonts/Amsterdam/Amsterdam Laviera.ttf");
+}
+@font-face {
+    font-family: "DEUX";
+    src: url("/fonts/Deux/DEUX.otf");
+}
+@font-face {
+    font-family: "SF Pro";
+    src: url("/fonts/Apple/SFPRODISPLAYMEDIUM.OTF");
+}
+@font-face {
+    font-family: "SF Pro Bold";
+    src: url("/fonts/Apple/SFPRODISPLAYBOLD.OTF");
+}
+.typed {
+    /* font-family: 'Zen Dots', cursive; */
+    /* font-family: 'Homemade Apple', cursive; */
+    /* font-family: 'Zen Tokyo Zoo', cursive; */
+    /* font-family: 'Lobster', cursive; */
+    /* font-family: 'Zen Dots'; */
+    /* font-family: 'DEUX'; */
+
+
+
+ /* Dont bold creative fonts      */
+     font-family: 'Amsterdam Laviera';
+ 
+
+}
+p,h2,h4{
+    font-family: SF Pro;
+}
+.name{
+    font-family: 'Amsterdam Laviera';
+    font-size: xx-large;
+}
+
+ #intro {
+    background: url(img/brillen1.jpg) no-repeat center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: 58% 0%; }
+    /* opacity: 0.9; */
+/*  */
+
+.homeStartPicSmall{
+    margin-top: 0rem;
+}
+#navBar {
+    font-size: x-large;
+}
+
+.navbar-toggler {
+    background-color: #c982df !important;
+    border-radius: 5%;
+    border: 0px;
+}
+
+.nav-link {
+    color: rgb(12, 12, 12) !important;
+}
+
+.nav-selected {
+    color: #583dd1 !important;
+}
+
+.favicon {
+    height: 3em;
+    width: 3em;
+}
+
+.copyR {
+    position: absolute;
+    top: -105px;
+    left: 160px;
+}
+
+
+#fullPageContent {
+    top: 40%;
+    position: absolute;
+}
+
+#ContentFullPage {
+    border-bottom: 1px solid white;
+}
+
+#ContentIcon {
+    border-bottom: 1px solid black;
+}
+
+#images {
+    border-bottom: 1px solid white;
+}
+
+#carousel {
+    border-bottom: 1px solid black;
+}
+
+#boxContent {
+    border: 5px solid white;
+}
+
+#contentBox {
+    border-bottom: 1px solid black;
+}
+
+h2,
+h4 {
+    color: #583dd1;
+}
+
+.circlePic{
+    background-color: #000000;
+    border-radius: 50%;
+}
+
+
+/* h4 {
+    font-size: x-large;
+} */
+
+#heading {
+    /* font-weight: bold; */
+    color: #9439de;
+    font-family: 'SF Pro Bold';
+    text-shadow: 4px 3px #050404;
+    /* font-weight: bolder; */
+    /* font-family: 'DEUX'; */
+    /* font-family: 'Lobster'; */
+
+    font-size: 260%;
+    /* text-shadow: 3px 2px 0 #f7c524; */
+}
+
+
+
+
+#startButton {
+    background-image: linear-gradient(120deg, #a233b1, #583dd1);
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+
+#navSites {
+    color: #f8f8f8;
+    font-size: 100%;
+}
+
+#content1 {
+    text-align: center;
+}
+
+.bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.contentBestPictures {
+    overflow: hidden;
+}
+
+
+/* Service */
+
+#contentKurse {
+    margin-top: 12vh;
+}
+
+#headlineKurse {
+    text-align: center;
+    font-size: xxx-large;
+}
+
+#textHome {
+    text-align: center;
+}
+
+#sectionKurse {
+    border-bottom: 1px solid white;
+}
+
+#angebotKurse {
+    text-align: center;
+}
+
+
+.innerPara {
+    position: absolute;
+    top: 60%;
+    left: 25%;
+    transform: translateZ(100px);
+    box-shadow: 0px 2px 7px 2px#5a5a5a;
+    padding: 15px;
+    border-radius: 5px;
+    color: black;
+    
+}
+.vanillaTxt{
+ font-weight: 700;
+}
+
+.vanillaText{
+    text-align: center;
+    line-height: 100px;
+}
+
+  
+.anim, .anim .svg {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    margin-top: -5%;
+  }
+  .anim path {
+    stroke-width: 2;
+  }
+
+
+
+/* Kontakt */
+
+#pictureHome {
+    padding: 10%;
+}
+
+#navBar {
+    background-color: #61b5c4 !important;
+    box-shadow: 2px 2px 3px #f8f8f8;
+}
+#absendenButton {
+    background-image: linear-gradient(120deg, #6dcebe, #583dd1);
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+
+/* Preise */
+
+.preiseTitle {
+    text-align: center;
+    font-size: xxx-large;
+}
+
+.preiseContent {
+    margin-top: 12vh;
+}
+
+#footerPreise {
+    margin-top: 40rem;
+    top: 100%;
+    position: sticky;
+}
+
+.preislistePic {
+    height: 100%;
+    width: 100%;
+}
+
+
+/* Impressum */
+
+.impressumTitle {
+    margin-top: 10rem;
+}
+
+.contentKoIm {
+    margin-left: 0rem;
+}
+
+
+/* Bootstrap Nav Button Color Change */
+
+a.bg-dark:focus,
+a.bg-dark:hover,
+button.bg-dark:focus,
+button.bg-dark:hover {
+    background-color: #000000!important;
+}
+
+@media only screen and (min-width: 300px) {
+    #heading {
+        font-size: 180%;
+    }
+    .typed {
+        font-size: 175%;
+        margin-left: 7px;
+    }
+}
+
+@media only screen and (min-width: 360px) {
+    #heading {
+        font-size: 190%;
+    }
+    .typed {
+        font-size: 190%;
+    }
+}
+
+@media only screen and (min-width: 500px) {
+    #heading {
+        font-size: 250%;
+    }
+}
+
+@media only screen and (min-width: 767px) {
+    #heading {
+        font-size: 320%;
+    }
+    .typed {
+        font-size: 220%;
+        margin-left: 1rem;
+    }
+    #fullPageContent {
+        top: 45%;
+    }
+    /* Darunter Transparenz möglich wenn Scroll Effekte möglich
+    sonst kein passender Layer im Hintergrund der Navigation  */
+    #navBar {
+        /* background-color: transparent !important; */
+        background-color: #618cc4 !important;
+        border-bottom: 0px #f8f8f8 solid !important;
+    }
+    #navbarCollapse {
+        display: flex;
+        flex-direction: row-reverse;
+    }
+    .bd-placeholder-img-lg {
+        font-size: 3.5rem;
+    }
+    .homePic {
+        margin-top: 3rem;
+    }
+    
+    
+ 
+    .copyR {
+        top: 30px;
+        left: 55px;
+    }
+    .contentKoIm {
+        margin-left: 15rem;
+    }
+}
+
+@media only screen and (min-width: 1000px) {
+    #fullPageContent {
+        top: 33%;
+        margin-left: 16em;
+    }
+    .homeStartPicSmall{
+        height: 0px;
+        width: 0px;
+        margin-top: 3rem;
+    }
+    .homeStartPicBig{
+        height: auto;
+        width: 100%;
+        margin-top: 5rem;
+    }
+    #heading {
+        font-size: 320%;
+    }
+    .typed {
+        font-size: 240%;
+    }
+    .name{
+        font-size: xxx-large;
+    }
+    #footerUber {
+        top: 100%;
+        position: sticky;
+    }
+    #footerPreise {
+        /* margin-top: 0rem; */
+        top: 100%;
+        position: sticky;
+    }
+    
+    .copyR {
+        top: 30px;
+        left: 80px;
+    }
+    .vanilla{
+        width: 250px;
+        height: 350px;
+    }
+    .innerPara {
+        font-size: 110%;
+        font-weight: 600;
+        left: 25%;
+        top: 60%;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    #heading {
+        font-size: 440%;
+    }
+    .typed {
+        font-size: 240%;
+    }
+    .uberContent{
+        margin-top: 10em;
+    }
+    p {
+        font-size: larger;
+    }
+    .uberUns{
+        margin-top: 5rem !important;
+    }
+    #slogan {
+        font-size: xx-large;
+    }
+    .homePic {
+        margin-top: 1rem;
+    }
+    .sectionImgBig {
+        padding: 1.5rem 10rem 3rem 10rem !important;
+    }
+    .containerhomePic {
+        padding: 2rem 5rem 0rem 5rem !important;
+    }
+    .contentKursPic {
+        padding: 2rem 5rem 0rem 5rem !important;
+    }
+    .copyR {
+        top: 30px;
+        left: 107px;
+    }
+    .vanillaText{
+        line-height: 150px;
+    }
+}
+
+@media only screen and (min-width: 1400px) {
+    .uberContent{
+        margin-top: 4em;
+    }
+    .uberUns{
+        margin-top: 0rem !important;
+    }
+    .logoContainer{
+        margin-top: 5em !important;
+    }
+    .sectionImgBig {
+        padding: 0.5rem 14rem 3rem 14rem !important;
+    }
+    .vanilla{
+        width: 350px;
+        height: 420px;
+    }
+    .innerPara {
+        font-size: 200%;
+        font-weight: 600;
+        left: 25%;
+    }
+    .vanillaTxt{
+        font-size: 130%;
+       }
+    #BG{
+        height: 200px !important;
+        width: 1100px !important;
+    }
+    .anim, .anim .svg {
+        position: relative;
+        width: 100%;
+        height: 100%;
+      }
+  
+}
+
+@media only screen and (min-width: 1900px) {
+    
+    .uberContent{
+        margin-top: 0em;
+    }
+    .typed {
+        font-size: 260%;
+        margin-left: 2rem;
+    }
+    #footerUber {
+        top: 100%;
+        position: sticky;
+    }
+    #footerPreise {
+        top: 100%;
+        position: sticky;
+    }
+    #intro {
+        background-position: 55% 67%;
+    }
+
+    .sectionImgBig {
+        padding: 0.5rem 16rem 3rem 16rem !important;
+    }
+    /* Kontakt */
+
+    .anim, .anim .svg {
+        position: absolute;
+        left: 55%;
+        width: 400px;
+        height: 400px;
+      }
+}
+
+@media only screen and (min-width: 2220px) {
+    .row {
+        margin-top: 7% !important;
+    }
+    .containerhomePic {
+        padding: 2rem 3rem 0rem 3rem !important;
+        margin-left: 5rem;
+    }
+    
+    .sectionImgBig {
+        padding: 0.5rem 10rem 3rem 10rem !important;
+    }
+}
+
+
+/* #angebotKurse:hover {
+    transform: scale(1.15);
+} */
+
+
+/* .homePic:hover {
+    transform: scale(1.1);
+} */
+
+
+
+/* #textHome:hover {
+    transform: scale(1.1);
+} */
+
+#hoverPicServ{
+    transition: 0.4s;
+}
+#hoverPicsServ{
+    transition: 0.4s;
+}
+#hoverPicServ:hover{
+    transform: scale(1.1);
+    transition: 0.4s;
+}
+#hoverPicsServ:hover{
+    transform: scale(1.1);
+    transition: 0.4s;
+}
+
+
+
+
+/* Button Animation */
+
+#startButton:hover {
+    background-image: linear-gradient(300deg, #a233b1, #583dd1);
+    color: white;
+}
+
+
+.bg-linear {
+    background-image: linear-gradient(280deg, #6dcebe, #583dd1);
+}
+
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+    width: 30px;
+    height: 30px;
+}
+
+.mt-6 {
+    margin-top: 6rem !important;
+}
+
+.ml-6 {
+    margin-left: 6rem !important;
+}
+
+.mr-6 {
+    margin-right: 6rem !important;
+}
+
+.mb-6 {
+    margin-bottom: 6rem !important;
+}
+
+.mt-7 {
+    margin-top: 12rem !important;
+}
